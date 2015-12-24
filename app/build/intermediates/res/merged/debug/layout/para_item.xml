@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txtSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="left|center_vertical"
+            android:text="2131231" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.06" >
+        </RelativeLayout>
+
+       <TextView
+           android:id="@+id/txtArrPara"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_weight="0.50"
+           android:gravity="left|center_vertical"
+           android:text="1231231" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/Mobile/Source/TP_Mobile_v2/app/src/main/res/layout/para_item.xml -->

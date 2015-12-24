@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal" >
+
+    <!-- style="@style/ActionBarCompat" -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#1E68AD"
+        android:clickable="false"
+        android:contentDescription="@string/img_conDes_logo"
+        android:paddingLeft="15dip"
+        android:scaleType="center"
+        android:src="@drawable/actionbar_logo_dashboard" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" 
+        android:background="#1E68AD" 
+        android:layout_weight="0.05">
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0.005dp"
+        android:background="#1E68AD"
+        android:textColor="#FFFFFF"
+        android:gravity="left|center_vertical"
+        android:layout_weight="0.99"/>
+
+    <ImageButton
+        android:id="@+id/btnNew"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:background="#1E68AD"
+        android:scaleType="center"
+        android:layout_marginLeft="0.005dp"
+        android:contentDescription="@string/img_conDes_new_report"
+        android:src="@drawable/document" />
+
+    <ImageButton
+        android:id="@+id/btnSetting"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0.005dp"
+        android:background="#1E68AD"
+        android:scaleType="center"
+        android:contentDescription="@string/img_conDes_setting"
+        android:src="@drawable/gear" />
+
+</LinearLayout><!-- From: file:/D:/Mobile/Source/TP_Mobile_v2/app/src/main/res/layout/actionbar_layout.xml -->

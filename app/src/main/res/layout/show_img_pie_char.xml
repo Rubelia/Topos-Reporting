@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="775dp"
+    android:layout_height="387dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_conDes_setting"
+        />
+
+</LinearLayout>

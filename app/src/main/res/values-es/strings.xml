@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">TP_Mobile_v2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_dsgroup">Group List</string>
+    <string name="title_activity_dsreport">Reports List</string>
+    <string name="title_activity_ds__kho">Danh sách Kho</string>
+    <string name="title_activity_show__detail__report">Report Detail</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_reset">Change password</string>
+    <string name="title_exit">Exit</string>
+    <string name="title_language">Langguage</string>
+    <string name="title_share">Share</string>
+    <string name="title_like">Options</string>
+    <string name="title_save">Save PDF</string>
+    <string name="title_saveDoc">Save DOC</string>
+    <string name="title_open">Open PDF</string>
+    <string name="button_text">Button</string>
+    <string name="txtI">Total: </string>
+    <string name="title_about">Information</string>
+    <string name="title_setting_old_ip">IP Address + Old Service :</string>
+    <string name="title_setting_new_ip">IP Address + New Service :</string>
+    <string name="title_setting_new_password">New Password:</string>
+    <string name="title_setting_repeat_new_password">Confirm Password:</string>
+    <string name="title_setting_old_kv">Old Area:</string>
+    <string name="title_setting_new_kv">New Area:</string>
+    <string name="title_setting_old_ch">Old Store:</string>
+    <string name="title_setting_new_ch">New Store:</string>
+    <string name="title_set_parameter">Fill Information:</string>
+    <string name="id_report_text">Id</string>
+    <!-- Button -->
+    <string name="button_refresh_text">Update</string>
+    <string name="button_exit_text">Exit</string>
+    <string name="button_save_text">Save</string>
+    <string name="button_back_text">Back</string>
+    <string name="button_xem_text">Watch</string>
+    <string name="button_next_text">Next</string>
+    <string name="button_login_text">Login</string>
+    <string name="button_reset_text">Sign Up</string>
+    <string name="button_sure_text">Yes</string>
+    <string name="button_notsure_text">No</string>
+    <string name="button_del_text">Delete</string>
+    <!-- TextView -->
+    <string name="title_txt_thoigian">Update Time: </string>
+    <string name="title_txt_chonkho">Choose Warehouse: </string>
+    <string name="about_text">	    Company: Thinh Phat JSC
+	    Developer: Xuan Thang
+	   	Version: Alpha
+    </string>
+    <string name="title_activity_set_parameter">SetParameter</string>
+    <string name="text_hit_edittext_date">DD-MM-YY</string>
+    <string name="text_hit_edittext">Fill in</string>
+    <string name="title_activity_show_list_parameter">ShowListParameter</string>
+    <string name="title_activity_string__para">String_Para</string>
+    <string name="title_activity_date__para">Date_Para</string>
+    <string name="title_activity_boolean__para">Boolean_Para</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_next">Next</string>
+    <string name="title_activity_show_parameter">ShowParameter</string>
+    <string name="title_activity_arr_str_fragment">ArrStrFragment</string>
+    <string name="title_activity_page_one_fragment">PageOneFragment</string>
+    <string name="title_activity_boolean_fragment">BooleanFragment</string>
+    <string name="title_login">Login</string>
+    <string name="text_view_user_name">User name</string>
+    <string name="text_view_password">Password</string>
+    <string name="desc"></string>
+    <string name="text_checkBox_save_account">\t Remember</string>
+
+    <string name="txt_IsDashBroad">Quick view</string>
+    <string name="txt_type_chart">The type of Report</string>
+    <string name="txt_location_DashBroad">Location of Report</string>
+    <string name="txt_new_name_report">Report name: </string>
+    <!-- Radio -->
+    <string name="radio_txt_true">Yes</string>
+    <string name="radio_txt_false">No</string>
+    <string name="radio_txt_p1">Position 1</string>
+    <string name="radio_txt_p2">Position 2</string>
+    <string name="radio_txt_p3">Position 3</string>
+    <string name="radio_txt_p4">Position 4</string>
+    <string name="radio_txt_name_report">Report name</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+
+    <!-- Image -->
+    <string name="img_conDes_setting">Function</string>
+    <string name="img_conDes_new_report">Report Expand</string>
+    <string name="img_conDes_logo">Logo</string>
+    <string name="contentDescription">Descripsion</string>
+    <!-- List -->
+    <string name="list_report_often">List of frequently used reports</string>
+    <!-- -->
+    <string name="btn_set_text_done">Done</string>
+    <string name="text_view_des_arrstr">Done</string>
+    <!-- String for notice -->
+    <string name="text_view_notice_arrstr">Please choose at least 1 Stores</string>
+</resources>

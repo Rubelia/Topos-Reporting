@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context="com.example.tp_mobile_v2.Show_Detail_Report" >
+
+    <!-- Include Action Bar -->
+        <include layout="@layout/custom_actionbar"/>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop = "0.005dp"
+        android:background="#1E68AD"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTongDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.01"
+            android:text="@string/txtI"
+            android:background="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.28"
+            android:background="#FFFFFF"
+            android:animationCache="false"
+			android:scrollingCache="false"
+			android:smoothScrollbar="true" 
+            >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="@string/button_back_text" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent" 
+                android:layout_weight="0.38">
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="@string/button_refresh_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

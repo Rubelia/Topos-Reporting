@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Topos Reporting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Đang nhập</string>
+    <string name="title_activity_dsgroup">Danh sánh nhóm báo cáo</string>
+    <string name="title_activity_dsreport">Danh sách báo cáo</string>
+    <string name="title_activity_ds__kho">Danh sách Kho</string>
+    <string name="title_activity_show__detail__report">Chi tiết báo cáo</string>
+    <string name="title_setting">Cài đặt</string>
+    <string name="title_reset">Chỉnh sửa mật khẩu</string>
+    <string name="title_alarm">Cài đặt báo cáo</string>
+    <string name="title_exit">Thoát</string>
+    <string name="title_language">Ngôn ngữ</string>
+    <string name="title_share">Chia sẻ</string>
+    <string name="title_like">Tùy chỉnh</string>
+    <string name="title_auto">Tự động</string>
+    <string name="title_save">Lưu PDF</string>
+    <string name="title_saveDoc">Lưu DOC</string>
+    <string name="title_open">Mở PDF</string>
+    <string name="button_text">Button</string>
+    <string name="txtI">Tổng: </string>
+    <string name="title_about">Thông tin</string>
+    <string name="title_setting_old_ip">Địa chỉ IP + Service cũ:</string>
+    <string name="title_setting_new_ip">Địa chỉ IP + Service mới:</string>
+    <string name="title_setting_new_password">Mật khẩu mới:</string>
+    <string name="title_setting_repeat_new_password">Nhập lại Mật khẩu mới:</string>
+    <string name="title_setting_old_kv">Khu vực cũ:</string>
+    <string name="title_setting_new_kv">Khu vực mới:</string>
+    <string name="title_setting_old_ch">Cửa hàng cũ:</string>
+    <string name="title_setting_new_ch">Cửa hàng mới:</string>
+    <string name="title_set_parameter">Vui lòng điền thông tin vào:</string>
+    <string name="id_report_text">Id</string>
+    <!-- Button -->
+    <string name="button_refresh_text">Cập nhật</string>
+    <string name="button_exit_text">Thoát</string>
+    <string name="button_save_text">Lưu</string>
+    <string name="button_clear_text">Mặc định</string>
+    <string name="button_back_text">Trở lại</string>
+    <string name="button_xem_text">Xem</string>
+    <string name="button_next_text">Tiếp tục</string>
+    <string name="button_login_text">Đăng nhập</string>
+    <string name="button_reset_text">Đăng ký</string>
+    <string name="button_sure_text">Đồng ý</string>
+    <string name="button_notsure_text">Không</string>
+    <string name="button_del_text">Xóa</string>
+    <!-- TextView -->
+    <string name="title_txt_thoigian">Thời gian cập nhật: </string>
+    <string name="title_txt_chonkho">Chọn Kho mà bạn muốn xem</string>
+    <string name="about_text">	    Company: Thinh Phat JSC
+	    Developer: Xuan Thang
+	   	Version: Alpha
+</string>
+    <string name="title_activity_set_parameter">SetParameter</string>
+    <string name="text_hit_edittext_date">DD-MM-YYYY</string>
+    <string name="text_hit_edittext">Điền vào</string>
+    <string name="title_activity_show_list_parameter">ShowListParameter</string>
+    <string name="title_activity_string__para">String_Para</string>
+    <string name="title_activity_date__para">Date_Para</string>
+    <string name="title_activity_boolean__para">Boolean_Para</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_next">Tiếp tục</string>
+    <string name="title_activity_show_parameter">ShowParameter</string>
+    <string name="title_activity_arr_str_fragment">ArrStrFragment</string>
+    <string name="title_activity_page_one_fragment">PageOneFragment</string>
+    <string name="title_activity_boolean_fragment">BooleanFragment</string>
+    <string name="title_login">Đăng nhập</string>
+    <string name="text_view_user_name">Tên người dùng</string>
+    <string name="text_view_password">Mật khẩu</string>
+    <string name="desc"></string>
+    <string name="text_checkBox_save_account">\t Ghi nhớ tên người dùng</string>
+    
+    <string name="txt_IsDashBroad">Để xem nhanh</string>
+    <string name="txt_type_chart">Chọn loại báo cáo</string>
+    <string name="txt_location_DashBroad">Vị trí của báo cáo</string>
+    <string name="txt_new_name_report">Tên báo cáo mới: </string>
+    <!-- Radio -->
+    <string name="radio_txt_true">Có</string>
+    <string name="radio_txt_false">Không</string>
+    <string name="radio_txt_p1">Position 1</string>
+    <string name="radio_txt_p2">Position 2</string>
+    <string name="radio_txt_p3">Position 3</string>
+    <string name="radio_txt_p4">Position 4</string>
+    <string name="radio_txt_name_report">Tên báo cáo</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+
+    <!-- Image -->
+    <string name="img_conDes_setting">Chức năng</string>
+    <string name="img_conDes_new_report">Báo cáo mở rộng</string>
+    <string name="img_conDes_logo">Logo</string>
+    <string name="contentDescription">Mô tả</string>
+    <!-- List -->
+    <string name="list_report_often">Danh sách báo cáo thường dùng</string>
+    <!-- -->
+    <string name="btn_set_text_done">Xong</string>
+    <string name="text_view_des_arrstr">Xong</string>
+    <!-- String for notice -->
+    <string name="text_view_notice_arrstr">Vui lòng chọn ít nhất 1 cửa hàng</string>
+    <string name="text_view_notice_boolean_2">Chỉ được chọn 1</string>
+    <string name="text_view_notice_boolean_1">Chọn 1</string>
+    <string name="text_view_notice_number">Vui lòng điền số vào !</string>
+    <string name="text_view_notice_date">Vui lòng chọn ngày!</string>
+    <string name="text_view_notice_string">Vui lòng điền vào !</string>
+    <string name="mess_not_found_scand_tool">Không tìm thấy ứng dụng</string>
+    <string name="mess_ass_download_scand_tool">Tải ứng dụng ?</string>
+    <string name="mess_yes_download_scand_tool">Đồng ý</string>
+    <string name="mess_no_download_scand_tool">Không</string>
+    <!-- Hint Text View-->
+    <string name="text_view_user_name_hint">Nhập tên đăng nhập</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="txtViewMonday">Thứ hai</string>
+    <string name="txtViewTuesday">Thứ ba</string>
+    <string name="txtViewWednesday">Thứ tư</string>
+    <string name="txtViewThursday">Thứ năm</string>
+    <string name="txtViewFriday">Thứ sáu</string>
+    <string name="txtViewSaturday">Thứ bảy</string>
+    <string name="txtViewSunday">Chủ nhật</string>
+    <string name="button_ok">Ok</string>
+    <!--<string name="text_view_password_hint">Nhập tên người dùng</string>-->
+</resources>

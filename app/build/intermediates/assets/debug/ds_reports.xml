@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Groups>
+    
+    <!-- Group 1 -->
+	<Group GroupID = "01">
+	    <NameGroup>Nhóm doanh thu</NameGroup>
+	    <DSReport>
+	        
+		    <!-- Report 1 -->
+		    <Report ReportID = "0101">
+			    <NameReport >Danh sách Doanh Thu Tháng 09</NameReport>
+			    <SQL>
+			    	SELECT nh.MaNganh,nh.TenNganh,SUM(ct.ThanhTienBan) AS thanhtienban FROM CTHoaDon092014 ct 
+			    	INNER JOIN HangHoa hh ON ct.HangHoaID  = hh.hanghoaid INNER 
+			    	JOIN NganhHang nh ON hh.MaNganh = nh.MaNganh GROUP BY nh.MaNganh,nh.TenNganh    
+			    </SQL>
+			    <Table>
+			        <Description>TenNganh</Description>
+			        <Value>Thanhtienban</Value>
+			    </Table>
+		    </Report>
+		    
+		    <!-- Report 2 -->
+		    <Report ReportID="0102">
+			    <NameReport>Tổng Doanh Thu Tháng 09</NameReport>
+			    <SQL>
+			    	select sum(thanhtienban) as TongDoanhThu from hoadon092014
+			    </SQL>
+			    <Table>
+			        <Description>TongDoanhThu</Description>
+			        <Value>null</Value>
+			    </Table>
+		    </Report>
+		    
+		    <!-- Report 3 -->
+		    <Report ReportID="0103">
+			    <NameReport>Danh sách số lượng Hàng Hóa của Thực phẩm Tháng 09</NameReport>
+			    <SQL>
+			           SELECT  nh.TenNganh, cd.tenhh, SUM(soluong)
+						FROM CTHoaDon092014 cd    
+						INNER JOIN HangHoa hh ON hh.HangHoaID = cd.HangHoaID   
+						INNER JOIN NganhHang nh ON hh.MaNganh = nh.MaNganh where nh.MaNganh = '11'   
+						GROUP BY cd.tenhh, nh.TenNganh
+			    </SQL>
+			    <Table>
+			        <Description>tenhh</Description>
+			        <Value>Column1</Value>
+			    </Table>
+		    </Report>
+		    <!-- Report 4 -->
+		    <Report ReportID = "0104">
+		        <NameReport>Test</NameReport>
+		        <SQL>null</SQL>
+		        <Table>
+		            <Description>null</Description>
+		            <Value>null</Value>
+		        </Table>
+		    </Report>
+		</DSReport>
+		
+	</Group>
+	<EndGroup></EndGroup>
+	
+	<!-- Group 2 -->
+	
+	<Group GroupID = "02" STT = "2">
+	    <NameGroup>Nhóm doanh thu</NameGroup>
+	    <DSReport>
+	        
+		    <!-- Report 1 -->
+		    <Report ReportID = "0201">
+			    <NameReport >Danh sách Doanh Thu Tháng 09</NameReport>
+			    <SQL>
+			    	SELECT nh.MaNganh,nh.TenNganh,SUM(ct.ThanhTienBan) AS thanhtienban FROM CTHoaDon092014 ct 
+			    	INNER JOIN HangHoa hh ON ct.HangHoaID  = hh.hanghoaid INNER 
+			    	JOIN NganhHang nh ON hh.MaNganh = nh.MaNganh GROUP BY nh.MaNganh,nh.TenNganh    
+			    </SQL>
+			    <Table>
+			        <Description>TenNganh</Description>
+			        <Value>Thanhtienban</Value>
+			    </Table>
+		    </Report>
+		    
+		    <!-- Report 2 -->
+		    <Report ReportID="0202">
+			    <NameReport>Tổng Doanh Thu Tháng 09</NameReport>
+			    <SQL>
+			    	select sum(thanhtienban) as TongDoanhThu from hoadon092014
+			    </SQL>
+			    <Table>
+			        <Description>TongDoanhThu</Description>
+			        <Value></Value>
+			    </Table>
+		    </Report>
+		    
+		    <!-- Report 3 -->
+		    <Report ReportID="0203">
+			    <NameReport>Danh sách số lượng Hàng Hóa của Thực phẩm Tháng 09</NameReport>
+			    <SQL>
+			           SELECT  nh.TenNganh, cd.tenhh, SUM(soluong)
+			           FROM CTHoaDon012014 cd    
+			           INNER JOIN HangHoa hh ON hh.HangHoaID = cd.HangHoaID   
+			           INNER JOIN NganhHang nh ON hh.MaNganh = nh.MaNganh where nh.MaNganh = '11'   
+			           GROUP BY cd.tenhh, nh.TenNganh
+			    </SQL>
+			    <Table>
+			        <Description>tenhh</Description>
+			        <Value>Column1</Value>
+			    </Table>
+		    </Report>
+		</DSReport>
+		
+	</Group>
+	<EndGroup></EndGroup>
+	
+	<!-- Group 3 -->
+
+	<Group GroupID = "03" STT="3">
+	    <NameGroup>Nhóm doanh thu</NameGroup>
+	    <DSReport>
+	        
+		    <!-- Report 1 -->
+		    <Report ReportID = "0301">
+			    <NameReport >Danh sách Doanh Thu Tháng 09</NameReport>
+			    <SQL>
+			    	SELECT nh.MaNganh,nh.TenNganh,SUM(ct.ThanhTienBan) AS thanhtienban FROM CTHoaDon092014 ct 
+			    	INNER JOIN HangHoa hh ON ct.HangHoaID  = hh.hanghoaid INNER 
+			    	JOIN NganhHang nh ON hh.MaNganh = nh.MaNganh GROUP BY nh.MaNganh,nh.TenNganh    
+			    </SQL>
+			    <Table>
+			        <Description>TenNganh</Description>
+			        <Value>Thanhtienban</Value>
+			    </Table>
+		    </Report>
+		    
+		    <!-- Report 2 -->
+		    <Report ReportID="0302">
+			    <NameReport>Tổng Doanh Thu Tháng 09</NameReport>
+			    <SQL>
+			    	select sum(thanhtienban) as TongDoanhThu from hoadon092014
+			    </SQL>
+			    <Table>
+			        <Description>TongDoanhThu</Description>
+			        <Value></Value>
+			    </Table>
+		    </Report>
+		    
+		    <!-- Report 3 -->
+		    <Report ReportID="0303">
+			    <NameReport>Danh sách Thực phẩm Tháng 09</NameReport>
+			    <SQL>
+			           SELECT  nh.TenNganh, cd.tenhh, SUM(soluong)
+			           FROM CTHoaDon012014 cd    
+			           INNER JOIN HangHoa hh ON hh.HangHoaID = cd.HangHoaID   
+			           INNER JOIN NganhHang nh ON hh.MaNganh = nh.MaNganh where nh.MaNganh = '11'   
+			           GROUP BY cd.tenhh, nh.TenNganh
+			    </SQL>
+			    <Table>
+			        <Description>tenhh</Description>
+			        <Value>Column1</Value>
+			    </Table>
+		    </Report>
+		</DSReport>
+		
+	</Group>
+	<EndGroup></EndGroup>
+	
+</Groups>

@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="35dp"
+	    android:orientation="horizontal" >
+	
+	    <!-- style="@style/ActionBarCompat" -->
+	
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="#1E68AD"
+	        android:clickable="false"
+	        android:contentDescription="@string/img_conDes_logo"
+	        android:paddingLeft="15dip"
+	        android:scaleType="center"
+	        android:src="@drawable/actionbar_logo_dashboard" />
+	
+	    <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent" 
+	        android:background="#1E68AD" 
+	        android:layout_weight="0.05">
+	    </RelativeLayout>
+	
+	    <TextView
+	        android:id="@+id/txt_title"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="0.005dp"
+	        android:background="#1E68AD"
+	        android:textColor="#FFFFFF"
+	        android:gravity="left|center_vertical"
+	        android:layout_weight="0.99"/>
+	
+	    <ImageButton
+	        android:id="@+id/btnNew"
+	        android:layout_width="30dp"
+	        android:layout_height="fill_parent"
+	        android:background="#1E68AD"
+	        android:scaleType="center"
+	        android:layout_marginLeft="0.005dp"
+	        android:contentDescription="@string/img_conDes_new_report"
+	        android:src="@drawable/document" />
+	
+	    <ImageButton
+	        android:id="@+id/btnSetting"
+	        android:layout_width="30dp"
+	        android:layout_height="fill_parent"
+	        android:layout_marginLeft="0.005dp"
+	        android:background="#1E68AD"
+	        android:scaleType="center"
+	        android:contentDescription="@string/img_conDes_setting"
+	        android:src="@drawable/gear" />
+	
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:weightSum="1"
+	    android:orientation="vertical" >
+	
+	    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.00"  
+        android:layout_marginTop="0.05dp"      
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+       	 	</LinearLayout>
+   	 	</TabHost>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="136dp"
+	            android:layout_marginTop="0.05dp"
+	            android:orientation="horizontal" >
+
+	            <LinearLayout
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="0.6"
+	                android:orientation="vertical" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_marginLeft="0.05dp"
+	                    android:layout_marginTop="0.05dp"
+	                    android:layout_weight="0.5"
+	                    android:background="#D0D0D0"
+	                    android:orientation="vertical" >
+
+	                    <TextView
+	                        android:id="@+id/txtTenReport"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="" />
+
+	                    <TextView
+	                        android:id="@+id/txtDoanhThu"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_gravity="center"
+	                        android:layout_marginTop="20dp"
+	                        android:text=""
+	                        android:textAppearance="?android:attr/textAppearanceLarge" />
+	                </LinearLayout>
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="0dp"
+	                    android:layout_marginLeft="0.05dp"
+	                    android:layout_marginTop="0.05dp"
+	                    android:layout_weight="0.5"
+	                    android:background="#D0D0D0"
+	                    android:orientation="vertical" >
+
+	                    <TextView
+	                        android:id="@+id/txt_Report"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="" />
+
+	                    <TextView
+	                        android:id="@+id/txtSLKH"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_gravity="center"
+	                        android:layout_marginTop="20dp"
+	                        android:text=""
+	                        android:textAppearance="?android:attr/textAppearanceLarge" />
+	                </LinearLayout>
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:layout_width="172dp"
+	                android:layout_height="match_parent"
+	                android:layout_marginTop="0.05dp"
+	                android:layout_weight="0.45"
+	                android:background="#D0D0D0"
+	                android:orientation="vertical" >
+	
+	                <TextView
+	                    android:id="@+id/textView1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textSize="20sp"
+	                    android:layout_gravity="center"
+	                    android:text="@string/list_report_often" />
+	
+	                <ListView
+	                    android:id="@+id/list"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent" >
+	                </ListView>
+	
+	            </LinearLayout>
+	
+	        </LinearLayout>
+	
+	</LinearLayout>
+             
+</LinearLayout><!-- From: file:/D:/Mobile/Source/TP_Mobile_v2/app/src/main/res/layout-land/activity_dash_board.xml -->

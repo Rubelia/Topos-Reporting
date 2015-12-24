@@ -1,0 +1,1 @@
+include ':app', ':ksoap2-android-assembly-2.6.0-jar-with-dependencies', ':achartengine-1.0.0', ':itextpdf-5.5.3', ':picasso-2.5.2', ':zxing-2.1'

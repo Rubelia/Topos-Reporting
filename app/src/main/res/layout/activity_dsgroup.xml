@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <!-- Include Action Bar -->
+        <include layout="@layout/custom_actionbar"/>
+
+     <LinearLayout
+	     android:id="@+id/linearLayout1"
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_marginTop = "0.005dp"
+	     android:background="#1E68AD"
+	     android:orientation="vertical" >
+     
+	     <ListView
+	        android:id="@+id/ds_group"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="10dp"
+	        android:background="#FFFFFF" 
+	        android:animationCache="false"
+			android:scrollingCache="false"
+			android:smoothScrollbar="true" >
+	
+	    </ListView>
+    </LinearLayout>
+
+    
+
+</LinearLayout>

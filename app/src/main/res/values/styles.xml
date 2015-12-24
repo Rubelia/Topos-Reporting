@@ -1,0 +1,50 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- Style for actionbar dashboard -->
+    <style name="TitleBar">
+         
+    </style>
+
+    <!-- enter_password_view-->
+    <style name="pinbox_password">
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:password">true</item>
+        <item name="android:editable">false</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.15</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/back</item>
+    </style>
+    <style name="btn_number">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">6dip</item>
+        <item name="android:layout_margin">3dip</item>
+        <item name="android:background">@drawable/button_gradient_selector</item>
+        </style>
+
+</resources>

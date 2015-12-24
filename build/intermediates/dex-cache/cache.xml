@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\ksoap2-android-assembly-2.6.0-jar-with-dependencies\ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="400a2afc7073b2e68c3841db8b9b71d4182f242d">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.6.0-jar-with-dependencies-7ca2fe5bf98914bb105749b1d76fed7c98a28d72.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\classes-049f5d65312c9b6ab43b91a23c599b1ef41db6ff.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\picasso-2.5.2\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-25d39e5f4b04c99ef1ce5c4354521b818eda99dc.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-f42c80a33dd38e881ac1aaa3bcc0d597907a1466.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\itextpdf-5.5.3\itextpdf-5.5.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4071b08a63ef69dfb6f7e2d4ac0c9c48277e7a02">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\itextpdf-5.5.3-aaffebae2c0f551de26fb5964d6ce0b138f628aa.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-821f734e5c0adfc888a95b3f5a6208a8d8b6aa1b.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\achartengine-1.0.0\achartengine-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\achartengine-1.0.0-e1314db1543d9b0bda1c88d40a3b9255e9339006.jar" />
+    </item>
+    <item
+        jar="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Mobile\Source\TP_Mobile_v2\app\build\intermediates\pre-dexed\debug\classes-c42b8e5d3329b218f221dbb6bfe760acd03dfd01.jar" />
+    </item>
+
+</items>
